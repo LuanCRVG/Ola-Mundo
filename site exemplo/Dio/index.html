@@ -7,19 +7,27 @@
 </head>
 <body>
    
-    <form method="get"> 
+    <form onsubmit="" method="get"> 
     <label>Nome:</label> <input type="text" Name="name"><br>
-    <label>Idade:</label> <input type="number" Name="age"><br>
-    <label>Password:</label> <input type="password" Name="password"><br>
-
-    <button type="reset"> Resetar</button>
-
-
-
-
-
+    <label>Cargo:</label> 
+    <select  name="role"> 
+        <option value="">Selecione Cargo</option> 
+        <option value="Administrativo">Administrativo</option>
+        <option  value="TI">TI</option>
+        <option value="Gerente">Gerente</option>
+        <option value="Diretor">Diretor</option>
+        <option value="Presidente">Presidente</option> 
+        </select>
+        <br>
+        <label>Assunto:</label><input type="text" name="subject"><br>
+        <button type="submit"> Enviar</button>
+          
        
     </form>
+
+
+
+          
 
 
 
